@@ -1,0 +1,27 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">AURGuard</title>
+  <desc id="desc">A shield protecting a package, with the tagline Scan before you build.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#0ea5e9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+  <circle cx="163" cy="205" r="108" fill="#0f172a" stroke="#1e293b" stroke-width="3"/>
+  <path d="M163 100l77 27v64c0 58-33 100-77 127-44-27-77-69-77-127v-64l77-27z" fill="url(#shield)"/>
+  <path d="M163 135l46 16v42c0 36-18 65-46 86-28-21-46-50-46-86v-42l46-16z" fill="#082f49" opacity=".88"/>
+  <path d="M134 184l29-17 29 17v35l-29 17-29-17z" fill="none" stroke="#e0f2fe" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M134 184l29 17 29-17M163 201v35" fill="none" stroke="#e0f2fe" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="315" y="173" fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="80" font-weight="800" letter-spacing="-2">AURGuard</text>
+  <text x="318" y="235" fill="#7dd3fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" font-weight="600">Scan before you build.</text>
+  <text x="318" y="292" fill="#94a3b8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24">Static security analysis for Arch User Repository packages</text>
+  <g transform="translate(318 326)">
+    <rect width="184" height="42" rx="21" fill="#0f172a" stroke="#334155"/>
+    <text x="92" y="28" text-anchor="middle" fill="#cbd5e1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="600">Rust • Linux • MIT</text>
+  </g>
+</svg>
