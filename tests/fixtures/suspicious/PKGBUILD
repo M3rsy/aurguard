@@ -1,0 +1,11 @@
+pkgname=aurguard-suspicious-fixture
+pkgver=1.0.0
+pkgrel=1
+source=('http://example.invalid/archive.tar.gz')
+sha256sums=('SKIP')
+
+prepare() {
+  printf '%s\n' 'inert fixture: remote-content-to-shell pattern intentionally omitted from execution'
+  chmod +x validator
+  ./validator
+}
