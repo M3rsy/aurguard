@@ -1,0 +1,14 @@
+pkgname=aurguard-clean-fixture
+pkgver=1.0.0
+pkgrel=1
+arch=('x86_64')
+source=("https://example.invalid/app-${pkgver}.tar.gz")
+sha256sums=('0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef')
+
+build() {
+  make
+}
+
+package() {
+  make DESTDIR="$pkgdir" install
+}
